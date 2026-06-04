@@ -24,11 +24,11 @@ Este projeto foi desenvolvido utilizando o NotebookLM para realizar a curadoria 
 7. **SQL-para-Análise-de-Dados.pdf:** Focado em técnicas avançadas de SQL para transformar dados em insights e realizar limpezas de dados.
 
 ## 2.3 - Vídeos (YouTube)
-1. **Como começar no Homelab do Zero? - Guia para Iniciantes:** Vídeo do canal Diolinux que discute opções de sistemas para servidores e virtualização, como Proxmox e TrueNAS.
-2. **JORNADA PROXMOX - YouTube:** Uma playlist (curso completo) que ensina passo a passo a instalação, configuração de clusters e alta disponibilidade no Proxmox VE.
-3. **Montando meu HOMELAB - Parte 1: O problema: Vídeo de Emerson Seiler sobre o planejamento de um homelab para armazenamento de arquivos e serviços de mídia.
-4. **O Proxmox Definitivo pro Homelab!** IA Local, Jogos e GPU Passthrough!: Tutorial do Diolinux focado em configurações avançadas no Proxmox, como armazenamento e GPU Passthrough.
-5. **Serviços do meu HOMELAB em 2025:** Vídeo de Slackjeff que apresenta diversos serviços autohospedados, como VPNs (WireGuard), wikis (Bookstack) e servidores de mídia.
+1. **Como começar no Homelab do Zero? - Guia para Iniciantes:** Vídeo do canal Diolinux que discute opções de sistemas para servidores e virtualização, como Proxmox e TrueNAS.[https://www.youtube.com/watch?v=MUHk0PKn2TQ](https://www.youtube.com/watch?v=MUHk0PKn2TQ)
+2. **JORNADA PROXMOX - YouTube:** Uma playlist (curso completo) que ensina passo a passo a instalação, configuração de clusters e alta disponibilidade no Proxmox VE.[https://youtube.com/playlist?list=PLWK3SH6DBDWbUr8roMnPuuBE3nOyRzEuf&si=xh_HOH-ezbpHS91t](https://youtube.com/playlist?list=PLWK3SH6DBDWbUr8roMnPuuBE3nOyRzEuf&si=xh_HOH-ezbpHS91t)
+3. **Montando meu HOMELAB - Parte 1: O problema: Vídeo de Emerson Seiler sobre o planejamento de um homelab para armazenamento de arquivos e serviços de mídia.[https://www.youtube.com/watch?v=-Wge-HKwIY8](https://www.youtube.com/watch?v=-Wge-HKwIY8)
+4. **O Proxmox Definitivo pro Homelab!** IA Local, Jogos e GPU Passthrough!: Tutorial do Diolinux focado em configurações avançadas no Proxmox, como armazenamento e GPU Passthrough.[https://www.youtube.com/watch?v=-4GAAFpuSBY](https://www.youtube.com/watch?v=-4GAAFpuSBY)
+5. **Serviços do meu HOMELAB em 2025:** Vídeo de Slackjeff que apresenta diversos serviços autohospedados, como VPNs (WireGuard), wikis (Bookstack) e servidores de mídia.[https://www.youtube.com/watch?v=cHoO_UNpJI0](https://www.youtube.com/watch?v=cHoO_UNpJI0)
 
 ## 3. Engenharia de Prompts e "Cicatrizes"
 *   **Prompt inicial:** "Crie um passo a passo para instalar o proxmox"
