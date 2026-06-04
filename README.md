@@ -11,7 +11,7 @@ Este projeto foi desenvolvido como um caderno temático no NotebookLM para conso
 Utilizei documentos técnicos oficiais e guias de boas práticas para alimentar o NotebookLM:
 1. **Proxmox VE Administration Guide:** [https://pve.proxmox.com/pve-docs/pve-admin-guide.html](https://pve.proxmox.com/pve-docs/pve-admin-guide.html)
 2. **ZFS OpenZFS documentation:** [https://openzfs.github.io/openzfs-docs/](https://openzfs.github.io/openzfs-docs/)
-3. **n8n Workflow Automation Docs:** [https://docs.n8n.io/](https://docs.n8n.io/)
+3. 
 
 ## 3. Engenharia de Prompts e "Cicatrizes"
 *   **Prompt inicial:** "Como montar um servidor?"
