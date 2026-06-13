@@ -42,12 +42,12 @@ Este projeto foi desenvolvido utilizando o NotebookLM para realizar a curadoria 
 ### 2. Criação da Mídia de Instalação
 *   **Download:** Baixe a imagem ISO oficial (versão PVE) diretamente do site da Proxmox.
 *   **Gravação:** Utilize um pendrive de no mínimo **8 GB**. Ferramentas recomendadas incluem **Ventoy**, **Rufus** (utilizando o modo DD), **Etcher** ou **Fedora Media Writer**.
-
-### 3. Iniciando o Instalador
 *   **Boot:** Insira o pendrive no servidor, ligue-o e configure a BIOS/UEFI para iniciar pela mídia USB: [https://www.proxmox.com/en/downloads/category/iso-images-pve](https://www.proxmox.com/en/downloads/category/iso-images-pve)  Proxmox VE 9.x ISO (~1.5GB)
 *   **Ventoy:** Baixe: [https://www.ventoy.net/en/download](https://www.ventoy.net/en/download.html)
     *    *Plugue USB* (>=4GB), rode Ventoy, arraste ISO Proxmox para o USB
-    * Boot no servidor via USB -> Install Proxmox VE
+     * Boot no servidor via USB -> Install Proxmox VE
+    
+### 3. Iniciando o Instalador
 *   **Menu Inicial:** Selecione a opção **"Install Proxmox VE (Graphical)"** para usar o instalador gráfico. 
     *   *Dica:* Se houver problemas com o hardware de vídeo e a tela travar, você pode tentar a opção de modo console ou adicionar o parâmetro `nomodeset` nas opções avançadas.
 *   **EULA:** Leia e aceite o contrato de licença de usuário final para prosseguir.
