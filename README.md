@@ -44,7 +44,8 @@ Este projeto foi desenvolvido utilizando o NotebookLM para realizar a curadoria 
 *   **Gravação:** Utilize um pendrive de no mínimo **8 GB**. Ferramentas recomendadas incluem **Ventoy**, **Rufus** (utilizando o modo DD), **Etcher** ou **Fedora Media Writer**.
 
 ### 3. Iniciando o Instalador
-*   **Boot:** Insira o pendrive no servidor, ligue-o e configure a BIOS/UEFI para iniciar pela mídia USB.
+*   **Boot:** Insira o pendrive no servidor, ligue-o e configure a BIOS/UEFI para iniciar pela mídia USB: [https://www.proxmox.com/en/downloads/category/iso-images-pve](https://www.proxmox.com/en/downloads/category/iso-images-pve)  Proxmox VE 9.x ISO (~1.5GB)
+#   **Ventoy:** Baixe: [https://www.ventoy.net/en/download](https://www.ventoy.net/en/download.html)
 *   **Menu Inicial:** Selecione a opção **"Install Proxmox VE (Graphical)"** para usar o instalador gráfico. 
     *   *Dica:* Se houver problemas com o hardware de vídeo e a tela travar, você pode tentar a opção de modo console ou adicionar o parâmetro `nomodeset` nas opções avançadas.
 *   **EULA:** Leia e aceite o contrato de licença de usuário final para prosseguir.
