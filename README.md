@@ -45,7 +45,41 @@ Este projeto foi desenvolvido utilizando o NotebookLM para realizar a curadoria 
 *   **Boot:** Insira o pendrive no servidor, ligue-o e configure a BIOS/UEFI para iniciar pela mídia USB: [https://www.proxmox.com/en/downloads/category/iso-images-pve](https://www.proxmox.com/en/downloads/category/iso-images-pve)  Proxmox VE 9.x ISO (~1.5GB)
 *   **Ventoy:** Baixe: [https://www.ventoy.net/en/download](https://www.ventoy.net/en/download.html)
     *    *Plugue USB* (>=4GB), rode Ventoy, arraste ISO Proxmox para o USB
+┌─────────────────────────────────────────────────────────────────┐
+│  PASSO 1: INSTALAR VENTOY NO PENDRIVE (UMA VEZ SÓ)              │
+│  ┌───────────────────────────────────────────────────────────┐  │
+│  │ 1. Plugue o pendrive (Drive G:)                           │  │
+│  │ 2. Rode: Ventoy2Disk.exe                                  │  │
+│  │ 3. Selecione o Drive G: na lista                          │  │
+│  │ 4. Clique: "Install" → "Yes" → "Yes" → "OK"               │  │
+│  │ 5. Pronto. O pendrive AGORA É UM VENTOY BOOTÁVEL          │  │
+│  └───────────────────────────────────────────────────────────┘  │
+│                              ↓                                  │
+│  PASSO 2: COPIAR ISOs PARA O PENDRIVE (ARRASTAR E SOLTAR)       │
+│  ┌───────────────────────────────────────────────────────────┐  │
+│  │ 1. Abra o pendrive (Drive G:) no Explorer                 │  │
+│  │ 2. Arraste seu arquivo .iso (Windows, Linux, etc.)        │  │
+│  │    para DENTRO do pendrive (como se fosse um arquivo      │  │
+│  │    normal)                                                │  │
+│  │ 3. Pronto. Pode colocar quantas ISOs quiser (cabe no      │  │
+│  │    espaço livre)                                          │  │
+│  └───────────────────────────────────────────────────────────┘  │
+│                              ↓                                  │
+│  PASSO 3: BOOT                                                  │
+│  ┌───────────────────────────────────────────────────────────┐  │
+│  │ 1. Reinicie o PC com o pendrive plugado                   │  │
+│  │ 2. Entre no BIOS/UEFI (F2, F12, Del, Esc - varia)         │  │
+│  │ 2. Selecione boot pelo pendrive (UEFI: Ventoy)            │  │
+│  │ 3. Menu Ventoy aparece → selecione a ISO → Enter          │  │
+│  └───────────────────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────────────┘
+
+
+
+
+    
      * Boot no servidor via USB -> Install Proxmox VE
+     
     
 ### 3. Iniciando o Instalador
 *   **Menu Inicial:** Selecione a opção **"Install Proxmox VE (Graphical)"** para usar o instalador gráfico. 
