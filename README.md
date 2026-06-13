@@ -5,7 +5,7 @@
 ## 1. Contexto e Objetivos
 Este projeto foi desenvolvido utilizando o NotebookLM para realizar a curadoria e síntese de informações técnicas sobre a montagem de um Home Lab resiliente. O foco é compreender a camada de virtualização e o gerenciamento de armazenamento de alta integridade.
 
- ** 1.1 - Objetivos de Estudo:**
+ **1.1 - Objetivos de Estudo:**
   - Dominar a virtualização com Proxmox VE.
   - Implementar armazenamento seguro e redundante utilizando o sistema de arquivos ZFS.
 
